@@ -42,7 +42,7 @@ def findall(dir, pattern='*'):
 setup(name='adlibre_dms',
     version=open('adlibre_dms/version.txt').read(),
     long_description=open('README.md').read(),
-    url='https://github.com/adlibre/Adlibre-DMS',
+    url='https://github.com/egon0/Adlibre-DMS',
     packages=find_packages('.'),
     scripts=[],
     package_data={
@@ -133,7 +133,7 @@ setup(name='adlibre_dms',
     ],
     dependency_links=[
         "https://codeload.github.com/adlibre/django-bcp/legacy.tar.gz/master#egg=django-bcp-0.1.8",
-        "https://codeload.github.com/adlibre/adlibre-plugins/legacy.tar.gz/master#egg=adlibre-plugins-0.1.1",
+        "git+https://github.com/adlibre/adlibre-plugins.git#egg=adlibre-plugins-0.1.1",
         "https://github.com/adlibre/python-bureaucrat/archive/0.1.0.tar.gz#egg=bureaucrat-0.1.0",
     ],
 )
