@@ -133,7 +133,7 @@ setup(name='adlibre_dms',
     ],
     dependency_links=[
         "https://codeload.github.com/adlibre/django-bcp/legacy.tar.gz/master#egg=django-bcp-0.1.8",
-        "git+https://github.com/adlibre/adlibre-plugins.git#egg=adlibre-plugins-0.1.1",
+        "git+git://github.com/adlibre/adlibre-plugins.git#egg=adlibre-plugins-0.1.1",
         "https://github.com/adlibre/python-bureaucrat/archive/0.1.0.tar.gz#egg=bureaucrat-0.1.0",
     ],
 )
